@@ -1,0 +1,257 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: #f8f9fc;
+  color: #333;
+}
+
+/* =========================
+   NAVBAR
+   ========================= */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  background: #ffffff;
+}
+
+.navbar a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #5a1185;
+  font-weight: 600;
+}
+
+/* =========================
+   HERO SECTION
+   ========================= */
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+}
+
+.hero h1 {
+  font-size: 42px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.hero button {
+  margin-top: 25px;
+  padding: 12px 30px;
+  border: none;
+  background: #fff;
+  color: #764ba2;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* =========================
+   FEATURES SECTION
+   ========================= */
+.features {
+  padding: 100px 50px;
+  text-align: center;
+}
+
+.feature-box {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.feature {
+  background: white;
+  padding: 25px;
+  width: 260px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(140, 99, 192, 0.336);
+}
+
+/* =========================
+   EDITOR SECTION
+   ========================= */
+.editor-section {
+  padding: 120px 20px;
+  max-width: 1100px;
+  margin: auto;
+  text-align: center;
+}
+
+.editor-info {
+  margin-bottom: 50px;
+}
+
+.editor-info h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.editor-info p {
+  font-size: 18px;
+  color: #555;
+  max-width: 750px;
+  margin: auto;
+}
+
+.editor-points {
+  list-style: none;
+  padding: 0;
+  margin-top: 25px;
+}
+
+.editor-points li {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.editor-preview {
+  margin-top: 60px;
+}
+
+.editor-preview h3 {
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+.editor-preview p {
+  color: #666;
+  margin-bottom: 25px;
+}
+
+.editor-video {
+  width: 100%;
+  max-width: 720px;
+  border-radius: 12px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* =========================
+   CONTACT SECTION
+   ========================= */
+.contact-section {
+  padding: 120px 20px;
+  text-align: center;
+  background: #ebeaea;
+}
+
+.contact-section h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.contact-section p {
+  color: #666;
+  max-width: 700px;
+  margin: 0 auto 40px;
+  font-size: 18px;
+}
+
+.contact-form {
+  max-width: 500px;
+  margin: auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.contact-form textarea {
+  height: 160px;
+  resize: none;
+}
+
+.contact-form button {
+  background: #5b5bf7;
+  color: #fff;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.contact-form button:hover {
+  background: #4a4ae0;
+}
+
+/* =========================
+   CTA SECTION
+   ========================= */
+.cta {
+  text-align: center;
+  padding: 150px 20px;
+  background: #7a8de6;
+  color: #fff;
+}
+
+.cta h2 {
+  font-size: 36px;
+}
+
+.cta p {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.cta button {
+  margin-top: 25px;
+  padding: 12px 30px;
+  border: none;
+  background: white;
+  color: #667eea;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* =========================
+   FOOTER
+   ========================= */
+footer {
+  padding: 25px;
+  text-align: center;
+  background: #201e1e;
+  color: white;
+}
+
+/* =========================
+   RESPONSIVE (Mobile)
+   ========================= */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .feature-box {
+    flex-direction: column;
+  }
+
+  .hero h1 {
+    font-size: 25px;
+  }
+
+  .cta h2 {
+    font-size: 28px;
+  }
+}
